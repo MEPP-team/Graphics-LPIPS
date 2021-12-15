@@ -1,0 +1,7 @@
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\bin\Debug\batFile.exe.config
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\bin\Debug\batFile.exe
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\bin\Debug\batFile.pdb
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\obj\Debug\batFile.csprojAssemblyReference.cache
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\obj\Debug\batFile.csproj.CoreCompileInputs.cache
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\obj\Debug\batFile.exe
+D:\Deep\LPIPS_modified\GenerateBatFile\batFile\batFile\obj\Debug\batFile.pdb
