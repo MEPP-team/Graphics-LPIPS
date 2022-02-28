@@ -14,14 +14,14 @@ import csv
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--datasets', type=str, nargs='+', default=['train/traditional','train/cnn','train/mix'], help='datasets to train on: [train/traditional],[train/cnn],[train/mix],[val/traditional],[val/cnn],[val/color],[val/deblur],[val/frameinterp],[val/superres]')
+    parser.add_argument('--datasets', type=str, nargs='+', default=['./dataset/TexturedDB_80%_TrainList_withnbPatchesPerVP_threth0.6.csv'], help='datasets to train on')
     parser.add_argument('--model', type=str, default='lpips', help='distance model type [lpips] for linearly calibrated net, [baseline] for off-the-shelf network, [l2] for euclidean distance, [ssim] for Structured Similarity Image Metric')
     parser.add_argument('--net', type=str, default='alex', help='[squeeze], [alex], or [vgg] for network architectures')
     #parser.add_argument('--batch_size', type=int, default=50, help='batch size to test image patches in')
     parser.add_argument('--use_gpu', action='store_true', help='turn on flag to use GPU')
     parser.add_argument('--gpu_ids', type=int, nargs='+', default=[0], help='gpus to use')
 
-    parser.add_argument('--nThreads', type=int, default=4, help='number of threads to use in data loader')
+    parser.add_argument('--nThreads', type=int, default=10, help='number of threads to use in data loader')
     parser.add_argument('--nepoch', type=int, default=5, help='# epochs at base learning rate')
     parser.add_argument('--nepoch_decay', type=int, default=5, help='# additional epochs at linearly learning rate')
     parser.add_argument('--npatches', type=int, default=65, help='# randomly sampled image patches')
