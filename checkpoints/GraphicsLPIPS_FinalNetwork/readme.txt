@@ -1,1 +1,1 @@
-python train.py --datasets "D:/Deep/LPIPS_modified/dataset/2afc/train/TexturedDB_80%_TrainList_withnbPatchesPerVP_threth0.6_shuffled.csv" --net alex --use_gpu --train_plot --name TheFinalChoice --nThreads 10 --npatches 150 --nInputImg 4 --nepoch 5 --nepoch_decay 5 --lr 0.0001 --testset_freq 2
+python train.py --datasets './dataset/TexturedDB_80%_TrainList_withnbPatchesPerVP_threth0.6.csv' --net alex --use_gpu --train_plot --name GraphicsLPIPS_FinalNetwork --nThreads 10 --npatches 150 --nInputImg 4 --nepoch 5 --nepoch_decay 5 --lr 0.0001 --testset_freq 2
