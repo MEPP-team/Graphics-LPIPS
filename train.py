@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
     # load data from all test sets 
     # The random patches for the test set are only sampled once at the beginning of training in order to avoid noise in the validation loss.
-    Testset = 'D:\\Deep\\Graphics_LPIPS\\dataset\\TexturedDB_20%_TestList_withnbPatchesPerVP_threth0.6.csv'
+    Testset = './dataset/TexturedDB_20%_TestList_withnbPatchesPerVP_threth0.6.csv'
     data_loader_testSet = dl.CreateDataLoader(Testset,dataset_mode='2afc', Nbpatches= opt.npatches, 
                                               load_size = load_size, batch_size=opt.batch_size, nThreads=opt.nThreads)
     test_TestSet = Test_TestSet(opt)
