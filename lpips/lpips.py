@@ -174,7 +174,7 @@ class Dist2LogitLayer(nn.Module):
 class BCERankingLoss(nn.Module):
     def __init__(self, chn_mid=32):
         super(BCERankingLoss, self).__init__()
-        self.loss = torch.nn.L1Loss() #MAE better if we have patches (according to Bosse et al.) 
+        self.loss = torch.nn.MSELoss() #torch.nn.L1Loss() (used in Bosse et al. 2018) 
 
     def forward(self, d0, judge):
         per = judge
