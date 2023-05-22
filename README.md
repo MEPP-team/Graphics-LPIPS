@@ -5,8 +5,8 @@ originally designed for images and perceptual similarity tasks, which we adapted
 Graphics-LPIPS employs CNNs with learning linear weights on top, fed with reference and distorted patches of rendered images of 3D models. 
 The overall quality of the 3D model is derived by averaging local patch qualities**
 
-This project is the implementation of our paper: [Textured Mesh Quality Assessment: Large-Scale Dataset and Deep Learning-based Quality Metric](https://yananehme.github.io/publications/). 
-[Yana Nehmé](https://yananehme.github.io/), [Florent Dupont](https://perso.liris.cnrs.fr/florent.dupont/), [Jean-Philippe Farrugia](http://perso.univ-lyon1.fr/jean-philippe.farrugia/), 
+This project is the implementation of our paper: [Textured Mesh Quality Assessment: Large-Scale Dataset and Deep Learning-based Quality Metric](https://yananehme.github.io/publications/2022-ACM-TOG). 
+[Yana Nehmé](https://yananehme.github.io/), [Johanna Delanoy](https://perso.liris.cnrs.fr/johanna.delanoy/), [Florent Dupont](https://perso.liris.cnrs.fr/florent.dupont/), [Jean-Philippe Farrugia](http://perso.univ-lyon1.fr/jean-philippe.farrugia/), 
 [Patrick Le Callet](https://scholar.google.fr/citations?user=llgwlUgAAAAJ&hl=fr), [Guillaume Lavoué](https://perso.liris.cnrs.fr/guillaume.lavoue/)
 
 ## (0) Dependencies/Setup
