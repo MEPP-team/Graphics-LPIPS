@@ -50,7 +50,7 @@ mapping and texture image of the meshes.
 The stimuli were annotated in a large-scale subjective experiment in crowdsourcing, based on the DSIS method.
 Thus, each stimulus is associated with a subjective quality score a.k.a Mean Opinion Score (MOS).
 
-[Download the dataset](https://yananehme.github.io/datasets/) (3D models and their distorted versions, snapshots of the stimuli taken from their main viewpoint, subjective scores)
+[Download the dataset](https://datasets.liris.cnrs.fr/textured-mesh-quality-assessment-dataset-version1) (3D models and their distorted versions, snapshots of the stimuli taken from their main viewpoint, subjective scores)
  
 ### Using the dataset to train and test the metric
 Graphics-LPIPS is designed for 3D graphics and quality assessment tasks.
