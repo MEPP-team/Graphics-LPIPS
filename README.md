@@ -79,7 +79,8 @@ Training will add a subdirectory in the `checkpoints` directory.
 ## Acknowledgements
 This work was supported by French National Research Agency as part of ANR-PISCo project (ANR-17-CE33-0005).
 
-Reference: Yana Nehmé, Florent Dupont, Jean-Philippe Farrugia, Patrick Le Callet, Guillaume Lavoué, Textured mesh quality assessment: Large-scale dataset and deep learning-based quality metric, arXiv preprint arXiv:2202.02397 (2022).
+## Reference
+**Yana Nehmé, Johanna Delanoy, Florent Dupont, Jean-Philippe Farrugia, Patrick Le Callet, Guillaume Lavoué, Textured mesh quality assessment: Large-scale dataset and deep learning-based quality metric, ACM Transactions on Graphics, to be presented at SIGGRAPH 2023.**
 
 ## License
 The Graphics-LPIPS metric is Copyright of University of Lyon, 2022.
