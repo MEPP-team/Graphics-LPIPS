@@ -1,0 +1,1 @@
+These are the 5 folds used in the publication. Each fold is a couple of csv files (test/train) suffixed with kX, where X is the fold number. These csv files can be used the same way as the standard ones downloaded with the dataset.
